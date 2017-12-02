@@ -1,0 +1,324 @@
+/*Mobile First*/
+/*Custom Bootstrap Navbar*/
+#custom-bootstrap-menu.navbar-default .navbar-brand {
+    color: rgba(255, 255, 255, 1);
+}
+#custom-bootstrap-menu.navbar-default {
+    font-size: 1.3em;
+    background-color: rgba(51, 122, 183, 1);
+    border-width: 1px;
+    border-radius: 2px;
+    border-color:rgba(255,255,255, 0.6);
+    font-family: 'Voltaire', sans-serif;
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(51, 122, 183, 1);
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:focus {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(22, 91, 156, 1);
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:focus {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(22, 91, 156, 1);
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle {
+    border-color: #5cb85c;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus {
+    background-color: #5cb85c;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle .icon-bar {
+    background-color: #5cb85c;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #337ab7;
+}
+/**/
+
+/*Parallax scrolling effect - landing page*/
+.parallax-container-fluid #custom-bootstrap-menu.navbar-default {
+    border-width: 0px;
+    border-radius: 0px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    z-index: 1;
+}
+
+html, body.zero{
+    height: 100%;
+    background-color: #337ab7
+}
+
+.parallax-container-fluid{
+    height: 100%;
+}
+
+.under-logo{
+    margin-top: 1%;
+}
+
+.parallax {
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    padding: 5% 0% 5% 0%;
+}
+
+.parallax img{
+    padding-top: 15%;
+}
+
+.parallax0{
+    background-image: url('../images/bg0.jpg');
+}
+.parallax1{
+    background-image: url('../images/bg1.jpg');
+}
+.parallax2{
+    background-image: url('../images/bg2.jpg');
+}
+.parallax3{
+    background-image: url('../images/bg3.jpg');
+}
+
+.parallax-page-header{
+    border-bottom-width: 0px;
+}
+
+.parallax p{
+    font-size: 1.2em;
+    background-color: rgba(255,255,255, 0.65);
+    padding: 2%;
+    font-weight: 500;
+}
+
+.parallax-row-header{
+    background-color: #fff;
+    padding-top: 1%;
+    font-size: 1em;
+}
+
+.row.parallax-row.parallax-row-header{
+    padding-bottom: 0;
+}
+
+.parallax-row{
+    background-color: #fff;
+    text-align: justify;
+    padding: 1.8%;
+    font-size: 1.14em;
+}
+
+.parallax-container-fluid footer{
+    margin:0;
+}
+/**/
+
+/*Sticky menu - affix*/
+.affix{
+    top: 0;
+    left: 0;
+    width:100%;
+    z-index: 1;
+}
+
+#custom-bootstrap-menu.affix{
+    border-width: 0px;
+    border-radius: 0px;
+}
+
+.affix + .row .page-header {
+    padding-top: 5.5%;
+}
+/**/
+
+/*Modal IMG*/
+#myImg {
+    border-radius: 4px;
+    cursor: pointer;
+    max-width: 100%;
+    transition: 0.3s;
+}
+
+#myImg:hover {
+    opacity: 0.7;
+}
+
+.custom-modal {
+    display: none;
+    z-index: 10;
+    padding-top: 6%;
+    background-color: rgba(0,0,0,0.9);
+}
+
+.custom-modal-content {
+    margin: auto;
+    display: block;
+    width: 100%;    
+}
+
+#caption {
+    text-align: center;
+    color: #ccc;
+    padding: 0.6%;
+}
+
+.modal-content, #caption {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+/**/
+
+.navbar-brand {
+    height: 100%;
+    padding:0.4em;
+}
+
+body{    
+    background-size: auto;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.one{
+    background-image: url('../images/bg1.jpg');
+}
+.two{
+    background-image: url('../images/bg2.jpg');
+}
+.three{
+    background-image: url('../images/bg3.jpg');
+}
+
+.container-custom{
+    background-color: rgba(255,255,255, 0.9);
+    text-align: justify;
+    padding: 2.2%;
+    margin-bottom: 2.2%;
+}
+
+.page-header{
+    padding-bottom: 0;
+}
+
+.page-header h1{
+    color:#fff;
+    font-weight: bold;
+    font-size: 2.3em;
+    font-family: 'Voltaire', sans-serif;
+    text-shadow: 0px 0px 7px #000;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Voltaire', sans-serif;
+    font-weight: bold;
+    font-size: 1.8em;
+}
+
+h3{
+    font-family: 'Voltaire', sans-serif;
+    font-weight: bold;
+    text-align: center;   
+    padding: 2%;
+}
+
+.custom-page-header{
+    border-bottom-color: #000;
+}
+
+.media{
+    padding:1.5% 0 1.5% 0;
+}
+
+img{
+    max-width: 100%;
+}
+
+.nav-tabs > li{
+    float:none;
+    display:inline-block;
+}
+
+.nav-tabs{
+    text-align:center;
+}
+
+footer{
+    background-color: rgba(51, 122, 183, 1);
+    color: #fff;
+    padding: 1.8%;
+    padding-bottom: 0;
+    margin-bottom: 2.2%;
+    font-family: 'Voltaire', sans-serif;
+    font-size: 1.2em;
+}
+
+.custom-footer-header{
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.modal-title{
+    font-size: 1.7em;
+}
+
+/*For bigger screens*/
+@media only screen and (min-device-width: 768px) {
+
+    body{    
+        background-position: 0% 0%;
+        background-size: 100% 100%;
+    }
+
+    .parallax img{
+        padding-top: 2%;
+    }
+
+    .parallax {
+        background-size: 100% 100%;
+        padding: 14% 5% 5% 5%;
+        background-attachment: fixed;
+    }
+
+    .custom-modal-content {
+        width: 80%;
+        max-width: 1000px;
+    }
+
+    .navbar-nav li a {
+        height: 3.3em;
+        width: 6.4em;
+        padding-top: 20%;        
+    }
+
+    .page-header h1{
+        font-size: 3.25em;
+    }
+
+    h2{
+        font-size: 2.15em;
+    }
+}
+
+@media only screen and (min-device-width: 992px) {
+    h3 {
+        text-align: left;   
+        padding: 0;
+    }
+}
