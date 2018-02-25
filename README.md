@@ -1,7 +1,7 @@
 # TakeItEasy
-Responsywna witryna internetowa stworzona za pomocą bootstrapa
+Responsive website created with bootstrap
 
-Wykorzystane technologie:
+Used technologies:
 <ul>
 <li>HTML5</li>
 <li>CSS3</li>
